@@ -1,0 +1,1 @@
+from fairsharer.main import fair_sharer
