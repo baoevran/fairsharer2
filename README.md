@@ -1,2 +1,2 @@
 # fairsharer2
-Fair redistributor of algorithm
+Fair redistributor algorithm
