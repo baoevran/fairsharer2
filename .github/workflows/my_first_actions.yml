@@ -27,7 +27,7 @@ jobs:
         run: pip install uv
 
       - name: Install the project dependencies using uv
-        run: uv sync --locked --all-extras --dev
+        run: uv sync --all-extras --dev
 
       - name: Lint with Ruff
         run: uv run ruff check .
