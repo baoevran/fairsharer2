@@ -1,1 +1,1 @@
-from fairsharer.main import fair_sharer
+from fairsharer.main import fair_sharer as fair_sharer
