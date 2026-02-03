@@ -17,13 +17,13 @@ def fair_sharer(values, num_iterations, share=0.1):
 
     for _ in range(num_iterations):
         max_index = values.index(max(values))
-        max_value = values[max_index] * share
+        max_value_share = values[max_index] * share
 
         left = (max_index - 1) % len(values)
         right = (max_index + 1) % len(values)
 
-        values[max_index] -= 2 * max_value
-        values[left] += max_value
-        values[right] += max_value
+        values[max_index] -= 2 * max_value_share
+        values[left] += max_value_share
+        values[right] += max_value_share
 
     return values
